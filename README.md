@@ -1,2 +1,1 @@
-# thanksgiving-turkey
-A simple thanksgiving turkey hanging out.
+# A Thanksgiving Turkey
