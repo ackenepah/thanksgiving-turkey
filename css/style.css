@@ -13,11 +13,11 @@ body {
   height: 438px;
 }
 
-/* --------------------
-JT THE TURKEY
--------------------- */
+/* ==================================================
+                      THE BIRD
+================================================== */
 
-/* Container */
+/* ---------- Container ---------- */
 
 .JT {
   position: absolute;
@@ -28,7 +28,7 @@ JT THE TURKEY
 
 
 
-/* Leg & Feet */
+/* ---------- Leg & Feet ---------- */
 
 .JT-leg {
   position: absolute;
@@ -83,7 +83,7 @@ JT THE TURKEY
 
 
 
-/* Feathers */
+/* ---------- Feathers ---------- */
 
 .JT-feathers {
   position: absolute;
@@ -147,4 +147,38 @@ JT THE TURKEY
 
 .JT-feather-9 {
   transform: rotate(180deg)
+}
+
+
+
+/* ---------- Body ---------- */
+
+.JT-bod {
+  position: relative;
+  z-index: 900;
+  background-color: #7b2e12;
+  background: linear-gradient(to right, rgba(123, 46, 18, 1) 0%, rgba(64, 19, 3, 1) 100%);
+  border-top-left-radius: 100% 100%;
+  border-top-right-radius: 100% 100%;
+  border-bottom-left-radius: 50% 100%;
+  border-bottom-right-radius: 50% 100%;
+  width: 120px;
+  height: 100px;
+}
+
+.JT-sign {
+  position: absolute;
+  z-index: 1300;
+  top: 45px;
+  left: -10px;
+  background: #fff;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(207, 205, 207, 1) 100%);
+  font-family: 'Indie Flower', cursive;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px
+  width: 140px;
+  height: 40px;
+  transform: rotate(5deg);
 }
