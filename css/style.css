@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  background: #fbb343;
+  background: linear-gradient(to right, rgba(251, 180, 67, 1) 0%, rgba(247, 153, 13, 1) 100%);
+}
+
+body {
+  background-color: brown;
+  background: -moz-radial-gradient(center, ellipse cover, rgba(252, 252, 252, 1) 0%, rgba(254, 182, 69, 1) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(252, 252, 252, 1) 0%, rgba(254, 182, 69, 1) 100%);
+  background: radial-gradient(ellipse at center, rgba(252, 252, 252, 1) 0%, rgba(254, 182, 69, 1) 100%);
+  background-repeat: no-repeat;
+  height: 438px;
+}
+
+/* --------------------
+JT THE TURKEY
+-------------------- */
+
+/* Container */
+
+.JT {
+  position: absolute;
+  top: 302px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* Leg & Feet */
+
+.JT-leg {
+  position: absolute;
+  top: 90px;
+  z-index: -100;
+}
+
+.JT-left-leg {
+  background-color: red;
+  left: 48%;
+}
+
+.JT-right-leg {
+  background-color: orange;
+  right: 63%;
+}
+
+.JT-leg-shin {
+  position: relative;
+  z-index: 100;
+  background: #f8931f;
+  background: linear-gradient(to right, #f7ad59 0%, #f9a94a 100%);
+  width: 10px;
+  height: 40px;
+}
+
+.JT-leg-foot {
+  position: absolute;
+  background-color: #f8931f;
+  width: 40px;
+  height: 10px;
+  border-top-left-radius: 100% 100%;
+  border-top-right-radius: 100% 100%;
+  border-bottom-left-radius: 14% 100%;
+  border-bottom-right-radius: 14% 100%;
+}
+
+.JT-leg-foot-left {
+  position: absolute;
+  left: -30px;
+  transform-origin: left;
+  transform: rotate(0deg);
+}
+
+.JT-leg-foot-right {
+  position: absolute;
+  left: 0;
+  transform-origin: left;
+  transform: rotate(-20deg);
+  animation: shake .5s infinite;
+}
