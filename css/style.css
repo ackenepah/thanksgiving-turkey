@@ -26,6 +26,8 @@ JT THE TURKEY
   transform: translate(-50%);
 }
 
+
+
 /* Leg & Feet */
 
 .JT-leg {
@@ -77,4 +79,72 @@ JT THE TURKEY
   transform-origin: left;
   transform: rotate(-20deg);
   animation: shake .5s infinite;
+}
+
+
+
+/* Feathers */
+
+.JT-feathers {
+  position: absolute;
+  z-index: 50;
+  left: -100%;
+  top: 20%;
+  transform: tronsform-origin(left bottom);
+  transform: rotate(-5deg);
+}
+
+.JT-feather {
+  position: absolute;
+  background-color: #aa6615;
+  border-top-left-radius: 40% 100%;
+  border-top-right-radius: 100% 70%;
+  border-bottom-right-radius: 100% 100%;
+  border-bottom-left-radius: 40% 100%;
+  box-shadow: 0px 0px 0px #000000;
+  width: 180px;
+  height: 60px;
+  transform: right center;
+}
+
+.JT-feather-1 {
+  transform: rotate(20deg);
+  background-color: #a95026;
+}
+
+.JT-feather-2 {
+  transform: rotate(40deg);
+  background-color: #a95026;
+}
+
+.JT-feather-3 {
+  transform: rotate(60deg);
+}
+
+.JT-feather-4 {
+  transform: rotate(80deg);
+  background-color: #f8931f;
+}
+
+.JT-feather-5 {
+  transform: rotate(100deg);
+  background-color: #f8931f;
+}
+
+.JT-feather-6 {
+  transform: rotate(120deg);
+}
+
+.JT-feather-7 {
+  transform: rotate(140deg);
+  background-color: #a95026;
+}
+
+.JT-feather-8 {
+  transform: rotate(160deg);
+  background-color: #a95026;
+}
+
+.JT-feather-9 {
+  transform: rotate(180deg)
 }
