@@ -26,6 +26,10 @@ body {
   transform: translate(-50%);
 }
 
+
+
+/* ---------- Legs & Feet ---------- */
+
 .JT-leg {
   position: absolute;
   top: 90px;
@@ -77,6 +81,10 @@ body {
   -webkit-animation: shake .5s infinite;
   animation: shake .5s infinite;
 }
+
+
+
+/* ---------- Feathers ---------- */
 
 .JT-feathers {
   position: absolute;
@@ -144,7 +152,7 @@ body {
 
 
 
-/* ---------- Body ---------- */
+/* ---------- Body & Sign ---------- */
 
 .JT-bod {
   position: relative;
@@ -209,6 +217,10 @@ body {
   transform: rotate(-90deg);
 }
 
+
+
+/* ---------- Head ---------- */
+
 .JT-head {
   position: absolute;
   z-index: 1000;
@@ -219,4 +231,33 @@ body {
   border-radius: 100%;
   width: 70px;
   height: 75px;
+}
+
+.JT-eye {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  position: absolute;
+  top: -55px;
+  z-index: 1050;
+}
+
+.JT-eye-left {
+  left: 15px;
+}
+
+.JT-eye-right {
+  left: 55px;
+}
+
+.JT-eye-iris {
+  position: absolute;
+  top: 36px;
+  left: 20px;
+  z-index: 1060;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background: #000;
 }
