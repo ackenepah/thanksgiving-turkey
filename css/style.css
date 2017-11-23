@@ -278,3 +278,37 @@ body {
 
 
 /* ---------- Hat ---------- */
+
+.JT-hat {
+  position: absolute;
+  top: -115px;
+  left: 15px;
+  z-index: 1100;
+  transform: tronsform-origin(left bottom);
+  transform: rotate(-10deg);
+}
+
+.JT-hat-pipe {
+  width: 70px;
+  height: 60px;
+  background-color: #000;
+  background: linear-gradient(to right, rgba(74, 74, 74, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  border-bottom: 15px solid #fff;
+  z-index: 1200;
+  position: relative;
+}
+
+.JT-hat-brim {
+  position: absolute;
+  bottom: -15px;
+  left: -60%;
+  z-index: 1150;
+  width: 160px;
+  height: 26px;
+  background-color: #000;
+  background: linear-gradient(to right, rgba(74, 74, 74, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  border-top-left-radius: 100% 100%;
+  border-top-right-radius: 100% 100%;
+  border-bottom-right-radius: 57% 32%;
+  border-bottom-left-radius: 66% 32%;
+}
