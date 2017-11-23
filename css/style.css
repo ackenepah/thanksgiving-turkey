@@ -312,3 +312,67 @@ body {
   border-bottom-right-radius: 57% 32%;
   border-bottom-left-radius: 66% 32%;
 }
+
+.JT-shake {
+  -webkit-animation: shake 3.5s infinite;
+  animation: shake 3.5s infinite;
+}
+
+.JT-rock {
+  -webkit-animation: rock 3.5s infinite;
+  animation: rock 3.5s infinite;
+}
+
+.JT-bounce {
+  -webkit-animation: bounce 1s infinite;
+  animation: bounce 1s infinite;
+}
+
+@keyframes shake {
+  0% {
+    -webkt-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkt-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  100% {
+    -webkt-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rock {
+  0% {
+    -webkit-transform: translate(10px);
+    transform: translate(10px);
+  }
+  50% {
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+  }
+  100% {
+    -webkit-transform: translate(10px);
+    transform: translate(10px);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  30% {
+    -webkit-transform: translate(0px, 3px);
+    transform: translate(0px, 3px);
+  }
+  75% {
+    -webkit-transform: translate(0px, -3px);
+    transform: translate(0px, -3px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+}
